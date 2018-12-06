@@ -1,0 +1,7 @@
+{
+  "name": "unicoder",
+  "version": "1.0.0",
+  "description": "Unicode conversion utility",
+  "main": "unicoder.js",
+  "license": "MIT"
+}
