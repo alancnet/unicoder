@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <meta http-equiv="x-refresh" content="5"/>
+        <script src="dist/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <input type="text" style="width: 100%;" value="What if you could decorate your email subject line?" />
+        <textarea style="width: 100%;">What if you could decorate your email subject line?</textarea>
+
+        <script type="text/javascript">
+            Array.from(document.querySelectorAll('input[type="text"], textarea')).forEach(element => new UnicoderInput(element))
+        </script>
+    </body>
+</html>
